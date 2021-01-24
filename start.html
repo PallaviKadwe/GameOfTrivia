@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu|Uncial+Antiqua"
+      rel="stylesheet" />
+</head>
+<body>  
+    <script>
+        function pageRedirect(){
+            window.location.href = "index.html"
+        }
+    </script>  
+    <div id="grad1"></div>
+
+    <div id="start-div" class="visible">        
+        <div class="start-div-child"> Trivia </div>
+
+        <div class="start-div-child2"> 
+            <h1>Welcome to a Game of Trivia</h1>
+            This is a trivia on food. It is an opportunity for you to explore fun facts on food and reply to the questions presented.
+            <p><u>Rules and scoring system</u></p>
+            <p>
+                You have a total of 10 questions to answer. You can choose from four options.<br>
+                The correct answer on the first attempt gives you a score of 40 points, the second 30, the third 20 and the last 0.
+            </p>
+            <p>
+                Each question is timed for 10 seconds. You move on to the next questions if you do not answer within the time limit.
+            </p>           
+        </div>
+        <div class="start-div-child3" id="getStarted" onclick="pageRedirect()">START </div>
+    </div>
+
+</body>
+</html>

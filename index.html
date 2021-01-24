@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Trivia</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Ubuntu|Uncial+Antiqua"
+    rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body>
+    <div id="grad1"></div>
+    <div id="quiz-div">
+        <div id="quiz-div-child">
+            <div class="quiz-div-child2">	Trivia </div>
+            <div class="quiz-div-child2" id="totalScore"> Points - 0 </div>
+            <div class="quiz-div-child2" id="qCount"> 0 / 10 </div>
+            <div class="quiz-div-child2" id="qTimer"> 0 </div>
+        </div>
+
+        <div class="container">
+            <!--<div class="qHolder">
+                <div class="question"></div>
+                <div class="options"></div>
+                <div class="correctAnswer"></div>
+            </div>-->   
+            <div id="nextQ" class="invisible" onclick="processAnswers()">Next Question </div>     
+        </div> 
+        <div id="finish" class="finishGame invisible  start-div-child2">        
+        </div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
